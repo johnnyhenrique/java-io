@@ -1,5 +1,6 @@
 
 /**
+ * Este texto se refere a documentação java
  * Stream e Reader
  * @author Jonatan
  * Stream lê bits e bytes
