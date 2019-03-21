@@ -20,7 +20,7 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 
 
-public class TesteLeitura2 {
+public class TesteInputStreamReader {
 
 	public static void main(String[] args) throws IOException {
 		
