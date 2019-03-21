@@ -1,0 +1,11 @@
+Comandos GIT:
+
+cd nome_da_pasta/nome_da_segunda_pasta - Navegar por Pastas
+git init - inicia o repositório local
+git status - verifica alterações
+git add *.java - adiciona todos arquivos java
+git add NomeDoArquivo.Extensão - Adiciona Arquivo
+git add . - todos os arquivos do diretório
+git commit -m "Mensagem" >> Commita os arquivos adicionados com uma mensagem
+git remote origin https://github.com/johnnyhenrique/java-io.git > vincula repositório local com repositório remoto
+git push origin master - push para repositório origin para branch master
