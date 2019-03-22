@@ -3,8 +3,6 @@ package br.com.alura.teste;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -26,7 +24,7 @@ public class TesteLeituraEscrita {
 		BufferedReader br = new BufferedReader(isr); // buffer para ler texto
 		
 						  // rede               // console   //  arquivo
-        OutputStream fos = get.OutputStream();//System.out;//new FileOutputStream("lorem2.txt");
+        OutputStream fos = s.getOutputStream();//System.out;//new FileOutputStream("lorem2.txt");
         Writer osw = new OutputStreamWriter(fos);
         BufferedWriter bw = new BufferedWriter(osw);
 		
@@ -41,6 +39,7 @@ public class TesteLeituraEscrita {
 		
 		br.close(); 
 		bw.close();
+		s.close();
 	}
 
 }
