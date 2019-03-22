@@ -9,5 +9,6 @@ git add . - todos os arquivos do diretório
 git commit -m "Mensagem" >> Commita os arquivos adicionados com uma mensagem
 git remote origin https://github.com/johnnyhenrique/java-io.git > vincula repositório local com repositório remoto
 git push origin master - push para repositório origin para branch master
+git clone https://github.com/jonatanhenrique/java-io.git > clona repositório remoto para local (baixa)
 
 ***** Texto para teste no git
